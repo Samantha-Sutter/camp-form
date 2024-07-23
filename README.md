@@ -1,3 +1,4 @@
+### Summer Camp Sign Up Site
 ## About
 This project demonstrates a simple, yet effective form for signing up for an overnight camping experience. It uses HTML and CSS to create a responsive and user-friendly interface.
 
