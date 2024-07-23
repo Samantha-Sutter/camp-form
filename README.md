@@ -3,7 +3,7 @@ This project demonstrates a simple, yet effective form for signing up for an ove
 
 ## Screenshot
 
-![Screenshot of Camping Form Site](images/camp-form.jpeg)
+![Screenshot of Camping Form Site](images/camp-form.jpg)
 
 ## Technologies Used
 
