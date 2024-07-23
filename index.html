@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Camp Sign-Up</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Summer Camp Sign Up!</h2>
+      <form action="submit_form.php" method="post">
+        <!-- Text input boxes -->
+        <div class="form-group">
+          <label for="first-name">First Name:</label>
+          <input
+            type="text"
+            id="first-name"
+            name="first_name"
+            placeholder="Enter your first name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name:</label>
+          <input
+            type="text"
+            id="last-name"
+            name="last_name"
+            placeholder="Enter your last name"
+          />
+        </div>
+
+        <!-- Email input -->
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <!-- Telephone input -->
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+            required
+          />
+        </div>
+
+        <!-- Radio buttons -->
+        <div class="form-group">
+          <label>Camping Selection:</label>
+          <div class="radio-group">
+            <label
+              ><input
+                type="radio"
+                name="ticket_type"
+                value="standard"
+                checked
+              />
+              Standard</label
+            >
+            <label
+              ><input type="radio" name="ticket_type" value="vip" /> VIP</label
+            >
+          </div>
+        </div>
+
+        <!-- Checkboxes -->
+        <div class="form-group">
+          <label>Select your interests:</label>
+          <div class="checkbox-group">
+            <label
+              ><input type="checkbox" name="interest" value="music" />
+              Music</label
+            >
+            <label
+              ><input type="checkbox" name="interest" value="climbing" />
+              Climbing</label
+            >
+            <label
+              ><input type="checkbox" name="interest" value="archery" />
+              Archery</label
+            >
+            <label
+              ><input type="checkbox" name="interest" value="art" /> Art</label
+            >
+            <label
+              ><input type="checkbox" name="interest" value="hiking" />
+              Hiking</label
+            >
+          </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+          <label for="comments">Additional Comments or Concerns:</label>
+          <textarea
+            id="comments"
+            name="comments"
+            rows="4"
+            placeholder="Enter any additional comments or concerns"
+          ></textarea>
+        </div>
+
+        <!-- Dropdown menu -->
+        <div class="form-group">
+          <label for="days">Select the days you will attend:</label>
+          <select id="days" name="days">
+            <option value="3days">3 Days</option>
+            <option value="5days">5 Days</option>
+            <option value="14days">14 Days</option>
+          </select>
+        </div>
+
+        <!-- Submit button -->
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
